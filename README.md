@@ -7,3 +7,4 @@ https://trello.com/invite/b/67d5c934d013984cde17604e/ATTI3eb8e7b185b76f3d85dab2f
 Link de Miro:
 https://miro.com/app/board/uXjVINPqtzM=/?share_link_id=58287526365
 
+Creative Commons (CC)
