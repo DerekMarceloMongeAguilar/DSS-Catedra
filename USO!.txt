@@ -1,0 +1,10 @@
+docker-compose up --build
+
+MINIKUBE
+minikube start
+cd k8s
+kubectl apply -f mysql-deployment.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+--Correr app 
+minikube service cashmanha-service

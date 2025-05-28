@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cashmanha-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cashmanha
+  template:
+    metadata:
+      labels:
+        app: cashmanha
+    spec:
+      containers:
+      - name: cashmanha
+        image: tuusuario/cashmanha:latest
+        ports:
+        - containerPort: 80
